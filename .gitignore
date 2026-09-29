@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# 隐私数据文件夹（严禁上传到 GitHub）
+inputs/
+outputs/
+*.xlsx
+*.xls
+# 模板文件是项目必需资产，豁免忽略（须随项目上传）
+!templates/
+!templates/*.xlsx
+# macOS 系统文件
+.DS_Store
+# 税收分类编码记忆库 / 税率 / 非必填偏好（用户隐私，严禁上传）
+data/default_tax_rate.json
+data/tax_code_map.json
+data/optional_cols_prefs.json
+# 内置静态编码表随项目上传（对所有用户可用）
+# data/tax_code_catalog.json 保留
